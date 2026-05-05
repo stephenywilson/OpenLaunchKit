@@ -1,0 +1,11 @@
+{
+  "name": "json-formatter",
+  "version": "0.2.0",
+  "description": "Fast JSON formatter and pretty-printer for the command line.",
+  "keywords": ["json", "formatter", "cli"],
+  "bin": { "json-formatter": "./dist/cli.js" },
+  "main": "./dist/cli.js",
+  "scripts": {
+    "build": "tsc"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "quickstat",
+  "version": "0.1.0",
+  "description": "Zero-config CLI for real-time JSON dataset statistics. Get count, mean, median, std dev, and outliers in seconds.",
+  "keywords": ["cli", "statistics", "json", "data", "analysis", "csv", "terminal"],
+  "bin": { "quickstat": "./dist/cli.js" },
+  "main": "./dist/cli.js",
+  "files": ["dist", "README.md", "LICENSE", "CHANGELOG.md"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stephenywilson/quickstat"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepublishOnly": "npm run build"
+  },
+  "engines": { "node": ">=18" },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "@types/node": "^20.12.12",
+    "jest": "^29.7.0",
+    "@types/jest": "^29.5.12"
+  }
+}

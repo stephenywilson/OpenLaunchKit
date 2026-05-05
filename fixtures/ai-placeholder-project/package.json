@@ -1,0 +1,11 @@
+{
+  "name": "awesome-tool",
+  "version": "0.0.1",
+  "description": "A powerful tool.",
+  "keywords": ["tool"],
+  "main": "./dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "openlaunchkit",
+  "version": "0.1.0",
+  "description": "Launch readiness auditor for AI-built GitHub projects. Check if your repo is ready to share on X, Hacker News, or npm.",
+  "keywords": ["cli", "open-source", "launch", "audit", "readme", "npm", "ai", "github"],
+  "bin": { "openlaunchkit": "./dist/cli.js" },
+  "main": "./dist/cli.js",
+  "files": ["dist", "README.md", "LICENSE", "CHANGELOG.md", "docs/images/openlaunchkit-report.svg"],
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "node --experimental-vm-modules node_modules/.bin/jest",
+    "smoke": "ts-node scripts/smoke.ts",
+    "release-smoke": "ts-node scripts/release-smoke.ts",
+    "prepublishOnly": "npm run build && npm run typecheck"
+  },
+  "engines": { "node": ">=18" },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephenywilson/OpenLaunchKit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stephenywilson/OpenLaunchKit/issues"
+  },
+  "homepage": "https://github.com/stephenywilson/OpenLaunchKit#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.12.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "testMatch": ["**/tests/**/*.test.ts"],
+    "moduleNameMapper": {
+      "^(\\.\\.?/.*)\\.js$": "$1"
+    },
+    "transform": {
+      "^.+\\.tsx?$": ["ts-jest", {
+        "tsconfig": "tsconfig.json"
+      }]
+    }
+  }
+}

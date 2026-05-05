@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="440" viewBox="0 0 680 440" role="img" aria-label="OpenLaunchKit audit report showing Overall Launch Score 78/100">
+  <title>OpenLaunchKit Audit Report — Overall Launch Score: 78/100</title>
+
+  <!-- Terminal window background -->
+  <rect width="680" height="440" rx="10" ry="10" fill="#1e1e2e"/>
+
+  <!-- Traffic light buttons -->
+  <circle cx="24" cy="22" r="6" fill="#ff5f57"/>
+  <circle cx="44" cy="22" r="6" fill="#febc2e"/>
+  <circle cx="64" cy="22" r="6" fill="#28c840"/>
+
+  <!-- Title bar -->
+  <text x="340" y="27" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" fill="#6c7086" text-anchor="middle">openlaunchkit audit</text>
+
+  <!-- Top divider -->
+  <line x1="0" y1="40" x2="680" y2="40" stroke="#313244" stroke-width="1"/>
+
+  <!-- Box top -->
+  <text x="30" y="68" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="13" fill="#89b4fa">╔══════════════════════════════════════════════════════╗</text>
+  <text x="30" y="86" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="13" fill="#89b4fa">║</text>
+  <text x="152" y="86" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="13" fill="#cdd6f4" font-weight="bold" text-anchor="middle">OpenLaunchKit Audit Report</text>
+  <text x="617" y="86" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="13" fill="#89b4fa" text-anchor="end">║</text>
+  <text x="30" y="104" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="13" fill="#89b4fa">╚══════════════════════════════════════════════════════╝</text>
+
+  <!-- Project info -->
+  <text x="50" y="130" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="13" fill="#6c7086">Project:</text>
+  <text x="145" y="130" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="13" fill="#cdd6f4">my-project</text>
+  <text x="50" y="148" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="13" fill="#6c7086">Audited:</text>
+  <text x="145" y="148" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="13" fill="#cdd6f4">2025-01-01</text>
+
+  <!-- Overall score -->
+  <text x="50" y="176" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="13" fill="#6c7086">Overall Launch Score:</text>
+  <text x="230" y="176" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="13" fill="#a6e3a1" font-weight="bold">78/100</text>
+  <text x="300" y="176" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="13" fill="#f9e2af" font-weight="bold">NEEDS WORK</text>
+
+  <!-- Score bar background -->
+  <rect x="50" y="185" width="420" height="6" rx="3" fill="#313244"/>
+  <!-- Score bar fill (78%) -->
+  <rect x="50" y="185" width="328" height="6" rx="3" fill="#a6e3a1"/>
+
+  <!-- Category header -->
+  <text x="50" y="214" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" fill="#6c7086">Category Scores:</text>
+
+  <!-- README -->
+  <text x="60" y="234" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" fill="#6c7086">├─</text>
+  <text x="86" y="234" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" fill="#cdd6f4">README</text>
+  <text x="330" y="234" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" fill="#a6e3a1" text-anchor="end">82/100</text>
+  <text x="348" y="234" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" fill="#a6e3a1">✓</text>
+
+  <!-- Package Readiness -->
+  <text x="60" y="252" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" fill="#6c7086">├─</text>
+  <text x="86" y="252" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" fill="#cdd6f4">Package Readiness</text>
+  <text x="330" y="252" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" fill="#a6e3a1" text-anchor="end">88/100</text>
+  <text x="348" y="252" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" fill="#a6e3a1">✓</text>
+
+  <!-- Open Source Hygiene -->
+  <text x="60" y="270" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" fill="#6c7086">├─</text>
+  <text x="86" y="270" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" fill="#cdd6f4">Open Source Hygiene</text>
+  <text x="330" y="270" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" fill="#f9e2af" text-anchor="end">72/100</text>
+  <text x="348" y="270" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" fill="#f9e2af">⚠</text>
+
+  <!-- Security & Privacy -->
+  <text x="60" y="288" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" fill="#6c7086">├─</text>
+  <text x="86" y="288" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" fill="#cdd6f4">Security &amp; Privacy</text>
+  <text x="330" y="288" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" fill="#a6e3a1" text-anchor="end">94/100</text>
+  <text x="348" y="288" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" fill="#a6e3a1">✓</text>
+
+  <!-- Demo & Visuals -->
+  <text x="60" y="306" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" fill="#6c7086">├─</text>
+  <text x="86" y="306" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" fill="#cdd6f4">Demo &amp; Visuals</text>
+  <text x="330" y="306" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" fill="#f38ba8" text-anchor="end">50/100</text>
+  <text x="348" y="306" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" fill="#f38ba8">✗</text>
+
+  <!-- Social Launch -->
+  <text x="60" y="324" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" fill="#6c7086">└─</text>
+  <text x="86" y="324" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" fill="#cdd6f4">Social Launch</text>
+  <text x="330" y="324" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" fill="#f9e2af" text-anchor="end">65/100</text>
+  <text x="348" y="324" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" fill="#f9e2af">⚠</text>
+
+  <!-- Divider -->
+  <line x1="50" y1="338" x2="480" y2="338" stroke="#313244" stroke-width="1"/>
+
+  <!-- Top fixes header -->
+  <text x="50" y="358" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" fill="#6c7086">Top Fixes:</text>
+
+  <!-- Fix 1 -->
+  <text x="60" y="376" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" fill="#f38ba8">1. [HIGH]</text>
+  <text x="145" y="376" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" fill="#cdd6f4">Add a demo screenshot or SVG preview</text>
+
+  <!-- Fix 2 -->
+  <text x="60" y="394" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" fill="#f9e2af">2. [MED]</text>
+  <text x="145" y="394" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" fill="#cdd6f4">Add SECURITY.md</text>
+
+  <!-- Fix 3 -->
+  <text x="60" y="412" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" fill="#f9e2af">3. [MED]</text>
+  <text x="145" y="412" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12" fill="#cdd6f4">Add launch copy for X / Hacker News</text>
+
+  <!-- Footer hint -->
+  <text x="50" y="432" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" fill="#45475a">Run with --json for full report · --markdown for Markdown report</text>
+</svg>

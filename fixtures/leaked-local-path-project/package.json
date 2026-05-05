@@ -1,0 +1,11 @@
+{
+  "name": "data-pipeline",
+  "version": "1.0.0",
+  "description": "A data processing pipeline tool.",
+  "keywords": ["data", "pipeline", "etl"],
+  "main": "./dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  }
+}
