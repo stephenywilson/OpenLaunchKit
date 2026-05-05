@@ -2,10 +2,27 @@
   "name": "openlaunchkit",
   "version": "0.1.0",
   "description": "Launch readiness auditor for AI-built GitHub projects. Check if your repo is ready to share on X, Hacker News, or npm.",
-  "keywords": ["cli", "open-source", "launch", "audit", "readme", "npm", "ai", "github"],
-  "bin": { "openlaunchkit": "./dist/cli.js" },
+  "keywords": [
+    "cli",
+    "open-source",
+    "launch",
+    "audit",
+    "readme",
+    "npm",
+    "ai",
+    "github"
+  ],
+  "bin": {
+    "openlaunchkit": "dist/cli.js"
+  },
   "main": "./dist/cli.js",
-  "files": ["dist", "README.md", "LICENSE", "CHANGELOG.md", "docs/images/openlaunchkit-report.svg"],
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md",
+    "docs/images/openlaunchkit-report.svg"
+  ],
   "scripts": {
     "build": "tsc",
     "typecheck": "tsc --noEmit",
@@ -14,7 +31,9 @@
     "release-smoke": "ts-node scripts/release-smoke.ts",
     "prepublishOnly": "npm run build && npm run typecheck"
   },
-  "engines": { "node": ">=18" },
+  "engines": {
+    "node": ">=18"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -35,14 +54,19 @@
   "jest": {
     "preset": "ts-jest",
     "testEnvironment": "node",
-    "testMatch": ["**/tests/**/*.test.ts"],
+    "testMatch": [
+      "**/tests/**/*.test.ts"
+    ],
     "moduleNameMapper": {
       "^(\\.\\.?/.*)\\.js$": "$1"
     },
     "transform": {
-      "^.+\\.tsx?$": ["ts-jest", {
-        "tsconfig": "tsconfig.json"
-      }]
+      "^.+\\.tsx?$": [
+        "ts-jest",
+        {
+          "tsconfig": "tsconfig.json"
+        }
+      ]
     }
   }
 }
