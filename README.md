@@ -1,5 +1,6 @@
 # OpenLaunchKit
 
+[![npm version](https://img.shields.io/npm/v/openlaunchkit)](https://www.npmjs.com/package/openlaunchkit)
 [![CI](https://github.com/stephenywilson/OpenLaunchKit/actions/workflows/ci.yml/badge.svg)](https://github.com/stephenywilson/OpenLaunchKit/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
 
